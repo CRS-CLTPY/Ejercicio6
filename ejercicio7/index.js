@@ -14,4 +14,5 @@ receta.ingredientes.push({
     cantidad: 1
 });
 
-console.log(receta)
+console.log(receta.ingredientes[0]?.nombre);
+console.log('Cantidad de ingredientes:', receta.ingredientes.length);
